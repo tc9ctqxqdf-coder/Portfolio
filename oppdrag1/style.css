@@ -1,0 +1,86 @@
+
+.bakrund1{ /* jeg slet lit med å finne ut hvor jeg skulle legge til bildet i bakrunden men når jeg komm hjem fat jeg ut at jeg kunne legge den inn i bady eller lage en bady for det er bakrunden. så denne koden er bakrundsbildet man ser*/
+    background-image: url("Pictures/Media/teampic1_resized.jpg"); /* denne koden legger til bakrundsbildet av laget*/
+
+
+}
+
+
+.Menu{  /* denne koden er helle den blå boksen, der lLogo og snappene til de forskjelige sidene skal komme. */
+    width: 1505px; /* denneforteller hvor høy i neddover boksen skal være. når jeg endrer på px går boksen ennten nedover i siden eller mindre i høyden. så denne koden styrer høyden*/
+    height: 100px; /* denne koden hjusterer bredden på menyen.*/
+    border: 1px solid rgb(0, 0, 0); /* denne koden styrer hvilken farge rammen skal være å hvor stor den skal være*/
+    background-color:  rgb(148, 190, 230); /* denne koden styrer bakrunds farge på menyens bakrund. som da er samme fargekode som den orginale */
+    display: flex; /* denne koden styrer slik at det er lit luft i alle sider  */
+    justify-content:space-around; /* denne koden sørger for at flex er luftig.*/
+    
+    
+    
+    
+    
+
+}
+
+a img{
+    width: 70px; 
+    height: auto;
+    position: relative; /* denne koden lar bildet bevege seg lit og ikke lenger står på sin fat sted. men vi har ikke gitt den noe eno*/
+
+
+}
+
+
+.button{ /*denne koden er definer til sammen at alle kodene skal greie å. få en */
+    color: #000000; /* dene koden definerer fargen til knappene i menyen*/
+    display: flex; /* denne linjen sier at teksten skal gå til flex og bli ligende*/
+    gap: 20%; /* denne linjen forteller oss hvor stor avstand det skal være mellom knappene*/
+    justify-content: center; /* denne koden forteller at menyknappene skal legge seg i midten av kjærmen*/
+    align-items: center;
+    padding: 4px 102px; /* dene koden gjusterer hvordan plaseringen skal være i kjærmen*/
+
+
+}
+.Tilbake{
+    margin-top: 40px;
+    
+    
+}
+.headline{
+    color: #210890;
+    width: 1000px;
+    float: left;
+    position: relative; left: 500px;
+    
+
+}
+/* nå skal jeg skrive en koder som er like neddover til den nye kode som skal være den lange teksten.*/
+.action{
+    float: left; 
+    position: relative; left: 500px;
+    background-color: rgb(249, 249, 249);
+    opacity: 70%; /*dette gjør teksten og boksen gjenommsiktig. 1 er hellt gjenomsiktig mens 100 er ikke gjenomsiktig*/
+    text-align: center;
+    padding: 10px
+
+
+}
+
+.bilde2{
+    justify-content: center; /* dene får bildet til å plasere seg fast*/
+    display: flex; 
+
+}
+
+
+.text2{
+    
+    width: 55%;
+}
+
+.blank{
+    display: flex;
+    background-color: rgb(255, 255, 255);
+    
+/* blank er hvit på grunn av at man ikke skal se den og at bildet skal greie å plasere seg ved siden av*/
+
+}
